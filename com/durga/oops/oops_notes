@@ -1,0 +1,67 @@
+class, object, reference variable
+->Class is a blueprint/plan.
+->Object means physical existence of a class
+->Object has methods
+->Behavior of an object we can represent by using method(eg;student can talk, walk, write, study etc.)
+For single object, there may be a chance of multiple references.
+
+class contains variables and methods
+3 types of variables:instance, static, local
+3 types of methods:instance, static, class
+
+->Instance variable
+-is object level variable
+-for every object separate copy will be there
+-value of the variable varries from object to object
+-ex: student_id, student_name
+
+->Static variable
+-is class level variable
+-only one copy will be there and will be shares by every object of the class
+-we define it within the class and outside of any method or constructor
+-inside constructor by using classname
+-inside instance method by using classname
+-inside class method by using either cls or classname
+-inside static method by using classname
+-outside of class by using classname
+-ex:school_name
+
+->Instance method
+-for the instance method first arguent is always self
+
+->Constructor
+-when we will create object then constructor will be executed
+
+->Setter method:also known as mutator method
+-purpose is to change the value of instance variable
+-setter method syntax compulsory starts with set
+-syntax:
+def setVariableName(self,variable):
+    self.variable=variable
+-example:
+def setMarks(self,marks):
+    self.marks=marks
+
+->Getter method:also known as accessor method
+-purpose is to ger value of the instance variable
+-getter method syntax compulsory starts with get
+-syntax:
+def getVariableName(self):
+    return self.variable
+-example:
+def getMarks(self):
+    return self.marks
+
+
+
+
+
+
+
+How to create object in python?
+    reference_variable = classname()
+->self is not a keyword in python
+->instead of self we can take any name, that will be always considered as implicit variable, just we will have to pass it as first argument.But any other name than self is not recommended.
+
+
+
