@@ -1,0 +1,100 @@
+*******Python features*******
+1>simple and easy to learn
+2>Freeware and open source
+3>High level programming language
+4>Platform independent
+5>Portability
+6>Dynamically Typed
+7>Both procedure oriented and objected oriented
+8>Interpreted
+9>Extensible
+10>Embedded
+11>Extensive library
+
+1>simple and easy to learn:
+-concise(less) code, lenght of the code will be very less compare to other programming
+-There are 33 reserved words
+-python code is something like reading english statement
+eg1;
+x=(10>20)?30:40; //in java
+x=30 if 10>30 else 40
+
+eg2;
+a=10
+b=20
+a is b
+
+eg3;
+if emp is not None
+
+eg4;
+print(open('abc.txt').read())
+
+2>Freeware and open source:
+PSF(python software foundation) is responsible to maintain python. Its a nonprofit organisation. Its website is python.org
+Java11 version onward, its paid.
+source code of python is open to everyone.
+Jython is used to work with java application
+Iron python is used to work with C#.Net application
+Anaconda python is used to work with big data.
+
+3>High level programming language:
+->its programmer friendly not machine friendly language.We are not required to worry for low level activities like below,
+-how the memory allocated?
+-how the object will be destroyed?
+-how the security will be there?
+internally above activities taken care by PVM(python virtual machine)
+
+4>Platform independent:
+-python is platform independent, write python application once and run anywhere on any platform. We are just required to
+ install PVM specific to platform. PVM is platform dependent. PVM is responsible to convert python application in
+ platform specific form.
+
+5>Portability:
+-The process of migrating application from one platform to another platform is called portability.
+
+6>Dynamically Typed:
+-In python we are not required to declare type explicitly, based on provided value automatically type will be considered.
+eg1;
+a=10
+print(type(a))//int
+
+a="durga"
+-for same variable in its life we can use for mutiple types in python.
+
+7>Both procedure oriented and objected oriented:
+->Python is all rounder.
+python-
+-procedure oriented
+-OOP
+-Scripting language
+-Modular
+
+8>Interpreted:
+-We are not required to comile explicitly. It is interpreted by python virtual machine.
+
+9>Extensible:
+-We can use legacy non python code in python
+-If somewhere in application performance is very critical, we can develop that functionality in C program and we can
+start using that C code in python code. Biggest advantage of this approach is performance of the application.
+
+10>Embedded:
+->Extensible feature in reverse
+->We can use python code in any other language application code. For eg; java app is there for a particular task if we
+  want to use python, we can use jython version of python.
+
+11>Extensive library:
+->In python for every requirement, readymade library is available, lacs of libraries are there in python. No other
+  programming language has this much library support.
+->WAP to generate 6 digit OTP.
+-we can use random library for this purpose.
+eg;
+from random import randint
+print(randint(0,9))
+
+
+
+
+
+
+
