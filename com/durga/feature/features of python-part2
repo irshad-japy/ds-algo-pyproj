@@ -92,9 +92,18 @@ eg;
 from random import randint
 print(randint(0,9))
 
+*******Python history*******
+->First version of python released in Feb 20th 1991
+->Pyhton 1.0=>Jan 1994
+->Python 2.0=>October 16, 2000(also known as py2k)
+->Python 3.0=>December 3, 2008(also known as py3k)
 
-
-
-
-
+=>python 2x vs python 3x
+->Java supports backward compatibility. It means that java 11 can support all its previous version.Our hands are not
+  free to add new features, we will have to think that, is this feature going to support old version Because of this
+  java is slowly getting down.
+  An analogy, if we have constructed a house 25 years back, and want to add new new parts in the same house, one day
+  that house will fall down, so instead we should reconstruct a new house.
+->If we install python 3x, should it provide support for python 2x or not?
+Answer is No, python 3x is not extension to python 2x. Its developed completely independent.
 
