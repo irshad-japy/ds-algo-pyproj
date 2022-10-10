@@ -1,0 +1,5 @@
+->In python everything considered as object including function also. Refer ex1.
+->for existing function we can give another name, another reference variable. That name is called function alias.Refer ex2.
+->from outside of outer function we can not call inner function. Because that inner function is local to outer function.Refer ex3.
+
+
