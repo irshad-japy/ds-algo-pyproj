@@ -1,5 +1,5 @@
-# DsAlgoCrackerPyProj
-#https://github.com/irshad-japy/DsAlgoCrackerPyProj
+# DS Algo PyProject
+#https://github.com/irshad-japy/ds-algo-pyproj
 #echo "# DsAlgoCrackerPyProj" >> README.md
 #git add README.md
 #git add . -A
